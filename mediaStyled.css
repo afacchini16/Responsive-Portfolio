@@ -1,3 +1,4 @@
+@media screen and (min-width : 600px) {
 .name{
 	font-size:15px;
 	text-align:center;
@@ -13,7 +14,9 @@ header{
 	background-color:white;
 	border-bottom:solid 2px #cccccc;
 }
+main{
 
+}
 .wrap{
 	width:960px;
 	margin:0 auto;
@@ -83,7 +86,6 @@ p{
 	background-color:white;
 	width:270px;
 	vertical-align:top;
-	/*float:right;*/
 	margin:32px 0 0 32px;
 }
 .connectTitle{
@@ -114,7 +116,7 @@ p{
 	margin-left:-10px;
 }
 .footerTitle{
-	color:rgb(231, 231, 231);
+	color:#777777;
 	background-color:#666666;
 	margin-top:10px;
 	padding-top:10px;
@@ -127,7 +129,10 @@ p{
 	bottom:0px;
 	text-align:center;
 }
-
+.footerTitle p{
+	padding-top:10px;
+	margin-top:10px;
+}
 .contactTitle{
 	border-bottom-style:solid;
 	border-bottom-width:2px;
@@ -156,8 +161,7 @@ p{
 	margin:15px 25px 20px 20px;
 }
 input{ 
-    color:#777777;
-    opacity:0.7;
+
 }
 button{
 	border-color:#4aaaa5;
@@ -249,6 +253,8 @@ textarea{
 	padding-bottom:20px;
 	padding-top:30px;
 }
+.portfolioImages{
+}
 h2{
 	position:absolute;
 	left:0;
@@ -292,302 +298,9 @@ h2{
 	position:relative;
 	margin:30px 15px 30px 20px;
 }
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:980px){
-	header{
-		width:980px;
-	}
-	.mainAbout{
-		width:980px;
-	}
-	.wrap{
-		width:730px;
-	}
-	._about{
-		width:420px;
-		overflow:auto;
-	}
-	.aboutTitle{
-		width:360px;
-	}
-	._aboutContent{
-		width:420px;
-	}
-
-	._aboutTotal{
-		width:420px;
-	}
-	p{
-		width:360px;
-		margin:10px 15px 10px 30px;
-	}
-	._aboutpic{
-		width:360px;
-		padding:20px;
-		height:270px;
-		display:block;
-		margin:0 auto;
-		float:none;
-	}
-	body{
-		height:1000px;
-	}
-
-}
-
-
-@media only screen and (max-width:980px){
-	header{
-		width:980px
-	}
-	main{
-		width:730px;
-	}
-	.wrap{
-		width:730px;
-	}
-	.portfolio{
-		width:420px;
-		overflow:auto;
-		margin-bottom:0px;
-	}
-	.portfolioTitle{
-		width:360px;
-	}
-	.portfolioImages img{
-		width:360px;
-		height:270px;
-	}
-	.portfolioImgWithText1{
-		margin:40px 30px 30px 30px;
-	}
-	.portfolioImgWithText2{
-		margin:40px 30px 30px 30px;
-	}
-	.portfolioImgWithText3{
-		margin:40px 30px 30px 30px;
-	}
-	.portfolioImgWithText4{
-		margin:40px 30px 30px 30px;
-	}
-	.portfolioImgWithText5{
-		margin:40px 30px 30px 30px;
-	}
-}
-
-
-@media only screen and (max-width:980px){
-	header{
-		width:980px
-	}
-	.contact{
-		width:420px;
-	}
-
-}
-
-
-
-@media only screen and (max-width:768px){
-	header{
-		width:980px;
-	}
-	.mainAbout{
-		width:100%;
-	}
-	.wrap{
-		width:730px;
-	}
-	._about{
-		width:728px;
-		overflow:auto;
-		margin-left:20px;
-		margin-bottom:40px;
-	}
-	.aboutTitle{
-		width:90%;
-	}
-	._aboutContent{
-		width:730px;
-	}
-
-	._aboutTotal{
-		width:730px;
-	}
-	p{
-		width:700px;
-		margin:0 0 0 10px;
-
-	}
-	._aboutpic{
-		width:335px;
-		padding:20px;
-		height:250px;
-		display:block;
-		margin:0 auto;
-		float:left;
-	}
-
-	body{
-		height:900px;
-	}
-	.connectWithMe{
-		width:730px;
-		margin:40px 0 0 0;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:768px){
-	header{
-		width:105%;
-	}
-	main{
-		width:100%;
-	}
-	.wrap{
-		width:730px;
-	}
-	.portfolio{
-		width:728px;
-		overflow:auto;
-		margin-left:15px;
-		margin-bottom:40px;
-	}
-	.portfolioTitle{
-		width:90%;
-	}
-	._aboutContent{
-		width:730px;
-	}
-
-	._aboutTotal{
-		width:730px;
-	}
-	p{
-		width:700px;
-		margin:0 0 0 10px;
-
-	}
-	._aboutpic{
-		width:335px;
-		padding:20px;
-		height:250px;
-		display:block;
-		margin:0 auto;
-		float:left;
-	}
-
-	body{
-		height:900px;
-	}
-	.connectWithMe{
-		width:730px;
-		margin:0 0 100px 25px;
-		padding-bottom:50px;
-	}
-	.portfolioImages img{
-		height:235px;
-		width:313px;
-	}
-	.portfolioImgWithText1{
-		margin:40px 20px 30px 30px;
-	}
-	.portfolioImgWithText2{
-		margin:40px 30px 30px 20px;
-	}
-	.portfolioImgWithText3{
-		margin:40px 20px 30px 30px;
-	}
-	.portfolioImgWithText4{
-		margin:40px 30px 30px 20px;
-	}
-	.portfolioImgWithText5{
-		margin:40px 20px 30px 30px;
-	}
-	.contact{
-		width:730px;
-		margin:40px 20px 40px 20px;
-	}
-
-}
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:640px){
-	header{
-		width:640px;
-	}
-	.name{
-		width:640px;
-	}
-	.nav{
-		width:640px;
-		margin-top:10px;
-	}
-	.nav ul li{
-		width:25%;
-		text-align:center;
-		margin-bottom:10px;
-	}
-	.wrap{
-		width:640px;
-	}
-	._aboutTotal{
-		width:600px;
-	}
-	._about{
-		width:600px;
-		margin-bottom:40px;
-	}
-	.aboutWriting p{
-		width:600px;
-		margin:10px;
-	}
-	._aboutpic{
-		width:540px;
-		height:405px;
-	}
-	.connectWithMe{
-		width:598px;
-		margin-top:0px;
-		margin-left:10px;
-	}
-	.portfolio{
-		width:600px;
-		margin-left:20px;
-	}
-	.portfolioImages img{
-		height:405px;
-		width:540px;
-	}
-	.contact{
-		width:600px;
+     	}
+@media screen and (max-width:599px){
+	.about{
+		background-color:black;
 	}
 }
